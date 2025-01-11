@@ -1,0 +1,43 @@
+body{
+    content: "";
+    background-image: url("../images/predio2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    
+}
+
+.container-header{
+    background-color: rgb(53, 55, 73);
+    display: flex;
+    place-items: start;
+    flex-direction: row;
+    width: 100%; 
+    position: fixed;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+.logo img {
+    width: 15%;
+    height: 15%;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    background-color: none;
+    
+}
+
+button{
+    background-color: black;
+    text-align: center;
+    
+}
+
+.container-button-header{
+    background-color: blue;
+    height: 100%;
+}
